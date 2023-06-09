@@ -4,187 +4,236 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>;</title>
 
     <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
     <!-- CSS link -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-    
-<!-- header section starts -->
+    <!-- Navbar Start -->
+    <header>
+        <!-- logo -->
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="">
+        </a>
+        <!-- menu icon -->
+        <i class='bx bx-menu' id="menu-icon"></i>
 
-<header class="header">
-    <section class="flex">
+        <!-- link -->
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#customers">Customer</a></li>
+        </ul>
 
-        <a href="#home" class="logo"><img src="images/logo.jpg" alt="" srcset=""></a>
+        <!-- icon -->
+        <div class="header-icon">
+            <i class='bx bxs-cart'></i>
+            <i class='bx bx-search' id="search-icon"></i>
+        </div>
+        <div class="search-box">
+            <input type="search" name="" id="" placeholder="Search here">
+        </div>
+    </header>
 
-        <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#menu">project</a>
-            <a href="#gallery">certification</a>
-            
-        </nav>
-
-        <div id="menu-btn" class="fas fa-bars"></div>
-    </section>
-</header>
-<!-- header section end -->
-
-<!-- home section starts -->
-
-<div class="home-bg">
-
+    <!-- Home Section -->
     <section class="home" id="home">
-        <div class="content">
-            <h3>Hey I'm Yasmin</h3>
-            <p>Web Development Enthusiast</p>
-            <a href="#about" class="btn">about me</a>
+        <div class="home-text">
+            <h1>increase your knowledge<br>with space-r</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+            <a href="#" class="btn">Learn Now</a>
+        </div>
+        <div class="home-img">
+            <img src="images/img-main.png" alt="">
         </div>
     </section>
-</div>
+    <!-- Home Section End -->
 
-<!-- home section end -->
-
-<!-- about section start -->
-
-<section class="about" id="about">
-    <div class="image">
-        <img src="images/foto.png" alt="">
-    </div>
-    
-    <div class="content">
-        <h3>About Me</h3>
-        <p>I am a student at Jenderal Soedirman University, majoring in informatics. I am currently interested in web programming and
-            mobile programming. Became a finalist in the user experience design category at the Gemastik XV event. Skilled in laravel web
-            development and flutter mobile app development.</p>
-        <a href="#menu" class="btn">My Project</a>
-    </div>
-</section>
-
-<!-- about section end -->
-
-<!-- facility section start -->
-
-<section class="facility">
-    <div class="heading">
-       
-        <h3>My Skill</h3>
-    </div>
-    <div class="box-container">
-        <div class="box">
-           
-            <h3>Laravel</h3>
-            
+    <!-- About Section Start -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/planet-1.jpg" alt="">
         </div>
-        <div class="box">
-           
-            <h3>HTML, CSS, JS</h3>
-            
+        <div class="about-text">
+            <h2>Our History</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non dolorum esse necessitatibus quae repellendus suscipit doloremque nesciunt tempore aspernatur consequatur animi, officia eos, illo mollitia.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus molestias doloremque, laboriosam quas commodi maiores minima atque? Eos odit aperiam corrupti doloremque dolor eius deleniti eveniet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perspiciatis blanditiis non sunt soluta tempora corrupti quae eaque, nemo earum necessitatibus vel obcaecati aliquam.</p>
+            <a href="#" class="btn">Learn More</a>
         </div>
-        <div class="box">
-           
-            <h3>PHP</h3>
-            
+    </section>
+    <!-- About Section End -->
+
+    <!-- Product Section Start -->
+    <section class="products" id="products">
+        <div class="heading">
+            <h2>Our Reccomend Lesson</h2>
         </div>
-        <div class="box">
-           
-            <h3>MySQL</h3>
-            
+        <!-- Container -->
+        <div class="products-container">
+            <div class="box">
+                <img src="images/img-1.png" alt="">
+                <h3>Mars</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/img-2.png" alt="">
+                <h3>Mars</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/img-3.png" alt="">
+                <h3>Mars</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/img-4.png" alt="">
+                <h3>Mars</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/img-5.png" alt="">
+                <h3>Mars</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/img-6.png" alt="">
+                <h3>Mars</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="#">Add to cart</a>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+    <!-- Products Session End -->
 
-<!-- facility section ends -->
-
-<!-- menu section start -->
-<section class="menu" id="menu">
-    <div class="heading">
-        
-        <h3>My Project</h3>
-    </div>
-
-    <div class="box-container">
-        <div class="box">
-            <img src="images/restoran.PNG" alt="">
-            <h3>Restaurant Reservation</h3>
+    <!-- Customer Session Start -->
+    <section class="customers" id="customers">
+        <div class="heading">
+            <h2>Our customer's</h2>
         </div>
-        <div class="box">
-            <img src="images/portfolio skilvl .png" alt="">
-            <h3>Portfolio</h3>
+        <!-- container -->
+        <div class="customers-container">
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni modi quidem laudantium placeat voluptatibus.</p>
+                <h2>Yasafat</h2>
+                <img src="images/chefs-2.jpg" alt="">
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni modi quidem laudantium placeat voluptatibus.</p>
+                <h2>Brandon</h2>
+                <img src="images/chefs-1.jpg" alt="">
+            </div>
+            <div class="box">
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni modi quidem laudantium placeat voluptatibus.</p>
+                <h2>Lavel</h2>
+                <img src="images/chefs-3.jpg" alt="">
+            </div>
         </div>
-        <div class="box">
-            <img src="images/e-sertif.PNG" alt="">
-            <h3>Web-based Certificate Processing Information System</h3>
+    </section>
+    <!-- Customers Session End -->
+
+    <!-- Footer start -->
+        <section class="footer">
+            <div class="footer-box">
+                <h2>Space-R</h2>
+                <p>Lorem ipsum dolor sit amet</p>
+                <div class="social">
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-instagram'></i>
+                    <i class='bx bxl-tiktok'></i>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h2>Support</h2>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Terms Of Use</a></li>
+            </div>
+            <div class="footer-box">
+                <h2>View Guidest</h2>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blog Posts</a></li>
+                <li><a href="#">Our Branches</a></li>
+            </div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <div class="contact">
+                    <span><i class='bx bx-map'></i>Tangerang, Indonesia</span>
+                    <span><i class='bx bx-phone'></i>+25883</span>
+                    <span><i class='bx bx-envelope'></i>spacer@indo.co</span>
+                </div>
+            </div>
+        </section>
+        <!-- Footer end -->
+        <!-- Copyright -->
+        <div class="copyright">
+            <p>&#169; InYourDream  All Right Reserved</p>
         </div>
-        
-    </div>
-</section>
-<!-- menu section ends -->
-<!-- gallery section starts -->
-<section class="gallery" id="gallery">
-    <div class="heading">
-        <img src="" alt="">
-        <h3>My Certification</h3>
-    </div>
-
-    <div class="box-container">
-       <a href="https://bit.ly/mtcnacertified">MikroTik Certified Network Associate</a>
-    </div>
-    <div class="box-container">
-        <a href=" https://bit.ly/sertifikatgemastik15">GEMASTIK XV User Experience Design Category</a>
-     </div>
-     <div class="box-container">
-        <a href=" https://drive.google.com/file/u/1/d/1A2sh17TBLtxggvHnV4DTMFDZqUMexe9p/view?usp=share_link">Laravel Web Development</a>
-     </div>
-     <div class="box-container">
-        <a href="https://bit.ly/sertifikatflutter">Flutter App Development</a>
-     </div>
-   
-</section>
-<!-- gallery section ends -->
-
-<!-- team section starts -->
-
-<!-- team section ends -->
-
-<!-- contact section starts -->
-
-<!-- contact section ends -->
-
-<!-- footer section starts -->
-<section class="footer">
-    <div class="box-container">
-
-        <div class="box">
-            <i class="fas fa-envelope"></i>
-            <h3>My Email</h3>
-            <p>yasminmutiarabintang@gmail.com</p>
-        </div>
-       
-        <div class="box">
-            <i class="fas fa-map-marker-alt"></i>
-            <h3>Location</h3>
-            <p>Tangerang, Indonesia</p>
-        </div>
-        <div class="box">
-            <i class="fas fa-phone"></i>
-            <h3>My number</h3>
-            <p>+687769342820</p>
-            
-        </div>
-    </div>
-
-    <div class="credit"> &copy; copyright @ 2022 by <span>yasmin</span> | all rights reserved! </div>
-</section>
-<!-- footer section ends -->
 
 
 
-<!-- JS link -->
-<script src="js/script.js"></script>
+
+    <!-- Footer end -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JS link -->
+    <script src="js/script.js"></script>
 </body>
 </html>
